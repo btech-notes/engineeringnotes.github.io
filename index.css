@@ -5,36 +5,44 @@
 
 #heading_one {
     text-align: center;
-    padding-top: 50px;
+    padding-top: 25px;
     text-shadow: black solid 2pc;
+    font-size: 36px;
+    font-weight: bolder;
+    
 }
 
-.card-deck{
+#heading_two{
+    text-align: center;
+    font-weight: bold;
+}
+
+.card-deck {
     margin-top: 35px;
     margin-bottom: 35px;
     margin-left: 35px;
     margin-right: 35px;
-    
+
 }
 
-.card .card-img-top{
+.card .card-img-top {
     display: none;
 }
 
-.card{
+.card {
     margin-top: 35px;
 }
 
-#contact-btn{
+#contact-btn {
     display: flex;
     border-color: black;
     border-radius: 10px;
 
-    
+
 }
 
 @media screen and (max-width: 800px) {
-    .card .card-img-top{
+    .card .card-img-top {
         display: block;
     }
-  }
+}

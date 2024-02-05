@@ -7,14 +7,29 @@
     text-align: center;
     padding-top: 25px;
     text-shadow: black solid 2pc;
-    font-size: 36px;
+    font-size: 26px;
     font-weight: bolder;
-    
+
 }
 
-#heading_two{
-    text-align: center;
-    font-weight: bold;
+.marq-tag {
+    width: 100%;
+    padding-right: 50px;
+    padding-left: 50px;
+
+}
+
+
+.blink {
+    animation: blinker 1.5s linear infinite;
+    color: yellowgreen;
+    font-family: sans-serif;
+}
+
+@keyframes blinker {
+    50% {
+        opacity: 0;
+    }
 }
 
 .card-deck {
